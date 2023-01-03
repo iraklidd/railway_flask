@@ -5,8 +5,8 @@ import os
 
 
 
-# PWD = os.getenv("parolie")
-PWD = "comiti2"
+PWD = os.getenv("parolie")
+# PWD = "comiti2"
 
 app = Flask(__name__)
 # app.config['DEBUG'] = True
