@@ -1,10 +1,10 @@
 from flask import Flask, jsonify
-from dotenv import load_dotenv
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv()
 import os
 
 
-# PWD = "abc" # os.getenv("parolie")
+# PWD = os.getenv("parolie")
 
 app = Flask(__name__)
 # app.config['DEBUG'] = True
