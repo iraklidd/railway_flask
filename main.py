@@ -36,7 +36,7 @@ def getscraping():
 	contentdata = {
 	 'content': 'scrap',
 	 'subcontent': 'fnum',
-	 'title': 'Web Scraping'
+	 'title': 'Web Scraping',
     }
 
 	return render_template('index.html', **contentdata)
