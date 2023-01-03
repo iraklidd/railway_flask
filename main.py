@@ -4,7 +4,7 @@ load_dotenv()
 import os
 
 
-PWD = "abc" # os.getenv("parolie")
+# PWD = "abc" # os.getenv("parolie")
 
 app = Flask(__name__)
 # app.config['DEBUG'] = True
