@@ -30,16 +30,16 @@ def index():
 	return render_template('index.html', **contentdata)
 
 
-# @app.route('/scrap', methods=["post", "get"])
-# def getscraping():
+@app.route('/scrap', methods=["post", "get"])
+def getscraping():
 
-# 	contentdata = {
-# 	 'content': 'scrap',
-# 	 'subcontent': 'fnum',
-# 	 'title': 'Web Scraping'
-#     }
+	contentdata = {
+	 'content': 'scrap',
+	 'subcontent': 'fnum',
+	 'title': 'Web Scraping'
+    }
 
-# 	return render_template('index.html', **contentdata)
+	return render_template('index.html', **contentdata)
 
 
 
