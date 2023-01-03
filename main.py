@@ -5,7 +5,7 @@ import os
 
 
 # chemi klasebi
-# import webscrap
+import webscrap
 
 
 
