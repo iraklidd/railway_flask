@@ -4,7 +4,7 @@ load_dotenv()
 import os
 
 
-PWD = os.getenv("parolie")
+# PWD = os.getenv("parolie")
 
 app = Flask(__name__)
 app.config['DEBUG'] = True
@@ -12,7 +12,8 @@ app.config['DEBUG'] = True
 
 @app.route('/')
 def index():
-    return jsonify({"Jariskacis parolia: ": PWD })
+    # return jsonify({"Jariskacis parolia: ": PWD })
+    return jsonify({"Jariskacis parolia: ": "PWD" })
 
 
 if __name__ == '__main__':
