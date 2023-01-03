@@ -1,12 +1,18 @@
 from flask import Flask, jsonify
+from dotenv import load_dotenv
+load_dotenv()
 import os
 
+
+PWD = os.getenv("parolie")
+
 app = Flask(__name__)
+app.config['DEBUG'] = True
 
 
 @app.route('/')
 def index():
-    return jsonify({"Jariskaci": "Kartvelia"})
+    return jsonify({"Jariskacis parolia: ": PWD })
 
 
 if __name__ == '__main__':
