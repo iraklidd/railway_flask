@@ -13,7 +13,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     # return jsonify({"Jariskacis parolia: ": PWD })
-    return jsonify({"Jariskacis parolia: ": "PWD" })
+    return jsonify({"Jariskacis parolia: ": "comiti1" })
 
 
 if __name__ == '__main__':
