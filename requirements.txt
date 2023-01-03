@@ -8,4 +8,4 @@ Werkzeug==1.0.1
 python-dotenv
 bs4
 requests
-re
+regex
